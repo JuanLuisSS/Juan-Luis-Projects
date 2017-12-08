@@ -1,0 +1,172 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    background-color: #02010a;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+  text-shadow: 2px #02010a;
+  border-radius: 10px 10px 0 0;
+  background: #5b7989;
+  font-size: 2em;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  animation: slidein 1s;
+}
+@-webkit-keyframes slidein{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+h1{
+  width: 60%;
+}
+a{
+  text-decoration: none;
+  color: white;
+  width: 40%;
+  text-align: right;
+}
+#galeria{
+  background-color: #d5c75f;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 70%;
+
+
+}
+#galeria img{
+  width: 100%;
+}
+#casa1{
+  width: 33.3%;
+}
+#casa2{
+  width: 33.3%;
+}
+#casa3{
+  width: 33.3%;
+}
+footer{
+  background-color: #C6d5c5;
+  display: flex;
+  flex-direction: row;
+  clear: both;
+  font-size: 1em;
+  border-radius: 0 0 10px 10px;
+}
+footer img{
+  width: 5%;
+}
+#contacto{
+  width: 25%;
+}
+#redes_sociales{
+  width: 25%;
+}
+#terminos{
+  width: 25%;
+}
+#derechos{
+  width: 25%;
+}
+#imagen1 img{
+ -webkit-filter: blur(10px);
+ filter: blur(10px);
+}
+#imagen2 img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#imagen3{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+#imagen4 img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+#imagen6 img{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+@media (max-width:900px){
+header{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h1{
+  width: 100%;
+}
+a{
+  width: 100%;
+}
+#galeria{
+  display: flex;
+  flex-direction: column;
+}
+#casa1{
+  width: 100%;
+}
+#casa2{
+  width: 100%;
+}
+#casa3{
+  width: 100%;
+}
+#imagen1 img{
+  width: 100%;
+}
+#imagen2 img{
+  width: 100%;
+}
+#imagen3 img{
+  width: 100%;
+}
+#imagen4 img{
+  width: 100%;
+}
+#imagen5 img{
+  width: 100%;
+}
+#imagen6 img{
+  width: 100%;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+}
+ #contacto{
+    width: 100%;
+  }
+  #redes_sociales{
+    width: 100%;
+  }
+  #terminos{
+    width: 100%;
+  }
+  #derechos{
+    width: 100%;
+  }
+  @-webkit-keyframes slidein{
+    0%{
+      margin-top: 150%;
+    }
+    60%{
+      margin-top: -5%;
+    }
+    100%{
+      margin-top: 0%;
+}
+}

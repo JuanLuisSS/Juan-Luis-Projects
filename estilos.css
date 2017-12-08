@@ -1,0 +1,184 @@
+body{
+  font-family: 'Dancing Script', cursive;
+  background-color: #02010a;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+}
+header{
+  border-radius: 10px 10px 0 0;
+  background-color: #5b7989;
+  font-size: 2em;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  animation: slidein 1s;
+
+}
+
+h1{
+  width: 60%;
+}
+#navegacion{
+  text-align: right;
+  padding: 1%;
+  width: 40%;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+#contenido{
+  background-color: #82c3a6;
+  text-align: center;
+}
+#contenido img{
+  width: 80%;
+  padding: 5%;
+  height: 600px;
+  -webkit-filter: drop-shadow(2px,2px,2px,black);
+  filter: drop-shadow(2px,2px,2px,black;);
+}
+.categorias{
+  background-color: #d5c75f;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+}
+div #izquierda{
+  width: 30%;
+  text-align: center;
+}
+#izquierda img{
+  width: 90%;
+  float: left;
+}
+div #derecha{
+  width: 30%;
+  text-align: center;
+}
+#derecha img{
+  width: 90%;
+  float: right;
+}
+#paisajes img{
+  transition: rotate, 1s;
+  -webkit-filter: drop-shadow(2px,2px,2px,#82c3a6);
+  filter: drop-shadow(2px,2px,2px,#82c3a6);
+}
+#paisajes img:hover{
+  transform: rotate(10deg);
+}
+#retratos img{
+  -webkit-filter: drop-shadow(2px,2px,2px,#82c3a6);
+  filter: drop-shadow(2px,2px,2px,#82c3a6);
+  float: right;
+  transition: translate 1s;
+}
+
+ #retratos img:hover{
+  transform: translate(20px,-5px);
+}
+
+footer{
+  background-color: #C6d5c5;
+  display: flex;
+  flex-direction: row;
+  clear: both;
+  font-size: 1em;
+  border-radius: 0 0 10px 10px;
+}
+footer img{
+  width: 5%;
+}
+#contacto{
+  width: 25%;
+}
+#redes_sociales{
+  width: 25%;
+}
+#terminos{
+  width: 25%;
+}
+#derechos{
+  width: 25%;
+}
+@-webkit-keyframes slidein{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+@media (max-width:900px){
+body{
+  margin: 0 auto;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  animation: slidein 1s;
+}
+h1{
+  width: 100%;
+  text-align: center;
+}
+#navegacion{
+  width: 100%;
+  text-align: center;
+}
+.categorias{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+div #izquierda{
+  width: 100%;
+  text-align: center;
+}
+#izquierda img{
+  width: 100%;
+}
+div #derecha{
+  width: 100%;
+  text-align: center;
+}
+#derecha img{
+  width: 100%;
+}
+footer{
+  display: flex;
+  flex-direction: column;
+}
+#contacto{
+  width: 100%;
+}
+#redes_sociales{
+  width: 100%;
+}
+#terminos{
+  width: 100%;
+}
+#derechos{
+  width: 100%;
+}
+@-webkit-keyframes slidein{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+
+
+
+
+}
